@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lava Jato </title>
+    <link rel="stylesheet" href="./src/css/style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <nav class="nav">
+                <div class="logo">LAVA JATO</div>
+                <div class="contact-info">
+                    <i class="fas fa-phone"></i>
+                    <span>(99) 9.9999-9999</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-background">
+            <img src="" alt="Lava Jato GB Background" class="hero-bg-image">
+            <div class="hero-overlay"></div>
+        </div> 
+        
+        <div class="container hero-content">
+            <div class="hero-grid">
+                <div class="hero-text">
+                    <div class="logo-circle">
+                        <div class="logo-content">
+                            <h1>LAVA JATO</h1>
+                            <div class="logo-gb">LJ</div>
+                            <p>NOME DO DONO</p>
+                        </div>
+                    </div>
+                    
+                    <h2>Cuidado Profissional para seu Veículo</h2>
+                    <p class="hero-subtitle">Serviços de lavagem e higienização com qualidade e dedicação</p>
+                    
+                    <button class="btn btn-primary" onclick="openWhatsApp('geral')">
+                        <i class="fab fa-whatsapp"></i>
+                        Agendar pelo WhatsApp
+                    </button>
+                </div>
+                
+                <div class="hero-services">
+                    <div class="service-card service-simple">
+                        <h3>LAVAGEM SIMPLES</h3>
+                    </div>
+                    <div class="service-card service-complete">
+                        <h3>LAVAGEM COMPLETA</h3>
+                    </div>
+                    <div class="service-card service-hygiene">
+                        <h3>HIGIENIZAÇÃO</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Nossos Serviços</h2>
+            
+            <div class="services-grid">
+                <div class="service-item service-simple-bg">
+                    <div class="service-icon">
+                        <i class="fas fa-tint"></i>
+                    </div>
+                    <h3>LAVAGEM SIMPLES</h3>
+                    <p>Lavagem externa completa com produtos de qualidade</p>
+                    <ul>
+                        <li>• Lavagem da carroceria</li>
+                        <li>• Limpeza dos vidros</li>
+                        <li>• Secagem completa</li>
+                        <li>• Pneus e rodas</li>
+                    </ul>
+                    <button class="btn btn-service" onclick="openWhatsApp('simples')">
+                        <i class="fab fa-whatsapp"></i>
+                        Agendar Lavagem Simples
+                    </button>
+                </div>
+
+                <div class="service-item service-complete-bg">
+                    <div class="service-icon">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3>LAVAGEM COMPLETA</h3>
+                    <p>Serviço completo interno e externo para seu veículo</p>
+                    <ul>
+                        <li>• Lavagem externa</li>
+                        <li>• Aspiração interna</li>
+                        <li>• Limpeza do painel</li>
+                        <li>• Pneus e rodas</li>
+                        <li>• Aromatização</li>
+                    </ul>
+                    <button class="btn btn-service" onclick="openWhatsApp('completa')">
+                        <i class="fab fa-whatsapp"></i>
+                        Agendar Lavagem Completa
+                    </button>
+                </div>
+
+                <div class="service-item service-hygiene-bg">
+                    <div class="service-icon">
+                        <i class="fas fa-sparkles"></i>
+                    </div>
+                    <h3>HIGIENIZAÇÃO</h3>
+                    <p>Higienização profunda com produtos especializados</p>
+                    <ul>
+                        <li>• Higienização completa</li>
+                        <li>• Produtos antibacterianos</li>
+                        <li>• Limpeza profunda</li>
+                        <li>• Eliminação de odores</li>
+                        <li>• Proteção sanitária</li>
+                    </ul>
+                    <button class="btn btn-service" onclick="openWhatsApp('higienizacao')">
+                        <i class="fab fa-whatsapp"></i>
+                        Agendar Higienização
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2>Sobre o Lava Jato </h2>
+                    <p class="about-description">
+                        Com anos de experiência no mercado, o Lava Jato  - LJ oferece serviços de qualidade
+                        superior para manter seu veículo sempre impecável.
+                    </p>
+                    <p class="about-details">
+                        Utilizamos produtos de primeira linha e técnicas profissionais para garantir o melhor cuidado com seu
+                        automóvel. Nossa equipe é treinada para oferecer um atendimento excepcional.
+                    </p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-number">500+</div>
+                            <div class="stat-label">Carros Lavados</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-number">100%</div>
+                            <div class="stat-label">Satisfação</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-image">
+                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=500&h=400&fit=crop" alt="Equipe profissional">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <div class="container">
+            <h2 class="section-title">Nossos Trabalhos</h2>
+            <p class="gallery-subtitle">
+                Veja alguns dos carros que já cuidamos com carinho e profissionalismo
+            </p>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1552519507-da3b142c6e3d?w=400&h=300&fit=crop" alt="Sedan preto após lavagem completa">
+                    <div class="gallery-overlay">
+                        <h3>Lavagem Completa</h3>
+                        <p>Sedan - Resultado impecável</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1549317661-bd32c8ce0db2?w=400&h=300&fit=crop" alt="SUV branco após higienização">
+                    <div class="gallery-overlay">
+                        <h3>Higienização</h3>
+                        <p>SUV - Interior e exterior</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?w=400&h=300&fit=crop" alt="Hatchback vermelho após lavagem simples">
+                    <div class="gallery-overlay">
+                        <h3>Lavagem Simples</h3>
+                        <p>Hatchback - Rápido e eficiente</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1544636331-e26879cd4d9b?w=400&h=300&fit=crop" alt="Pickup azul após lavagem completa">
+                    <div class="gallery-overlay">
+                        <h3>Lavagem Completa</h3>
+                        <p>Pickup - Cuidado especial</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1555215695-3004980ad54e?w=400&h=300&fit=crop" alt="Carro esportivo prata após higienização">
+                    <div class="gallery-overlay">
+                        <h3>Higienização</h3>
+                        <p>Esportivo - Tratamento premium</p>
+                    </div>
+                </div>
+                
+                <div class="gallery-item">
+                    <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=400&h=300&fit=crop" alt="Van familiar branca após lavagem detalhada">
+                    <div class="gallery-overlay">
+                        <h3>Lavagem Completa</h3>
+                        <p>Van - Espaço para toda família</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="gallery-cta">
+                <p>Gostou do nosso trabalho? Seu carro pode ser o próximo!</p>
+                <button class="btn btn-secondary" onclick="openWhatsApp('galeria')">
+                    <i class="fab fa-whatsapp"></i>
+                    Quero Agendar Meu Carro
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact">
+        <div class="container">
+            <h2 class="section-title">Entre em Contato</h2>
+            
+            <div class="contact-grid">
+                <div class="contact-item">
+                    <i class="fas fa-phone contact-icon"></i>
+                    <h3>WhatsApp</h3>
+                    <p>(99) 9.9999-9999</p>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-clock contact-icon"></i>
+                    <h3>Horário</h3>
+                    <p>Seg - Sáb: 8h às 18h</p>
+                    <p>Dom: 8h às 12h</p>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt contact-icon"></i>
+                    <h3>Localização</h3>
+                    <p>Atendemos em toda região</p>
+                </div>
+            </div>
+            
+            <div class="contact-cta">
+                <button class="btn btn-primary btn-large" onclick="openWhatsApp('contato')">
+                    <i class="fab fa-whatsapp"></i>
+                    Agendar Agora pelo WhatsApp
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <h3>LAVA JATO LJ</h3>
+            <p>LJ - Cuidado profissional para seu veículo</p>
+            <div class="footer-contact">
+                <i class="fas fa-phone"></i>
+                <span>(99) 9.9999-9999</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
